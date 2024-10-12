@@ -1,0 +1,4 @@
+[data]
+type=lua
+path=lunix/program/ecode/ecode.lua
+rtPath=
