@@ -87,13 +87,10 @@ function main(argTable)
                     end
                 -- CPの位置が行の1番左ではなかった場合
                 else
-                    if 4 < textPointerX then
-                        insStr = insStr:sub(1,textPointerX-1)..insStr:sub(textPointerX+1)
-                        textPointerX = textPointerX - 1
-                    else
-                        insStr = insStr:sub(1,textPointerX-1)..insStr:sub(textPointerX+1)
-                        textPointerX = textPointerX - 1
-                    end
+                    --CPで選択されている文字以外左右を結合、
+                    -- CPを一つ左に動かし行を更新する。
+                    insStr = insStr:sub(1,textPointerX-1)..insStr:sub(textPointerX+1)
+                    textPointerX = textPointerX - 1
                     lines[textPointerY + 1] = insStr
                 end
 
