@@ -94,7 +94,11 @@ function main(argTable)
                     lines[textPointerY + 1] = insStr
                 end
 
+            -- Enterキーが押された場合
             elseif inputKey == "\r" then
+                -- Enterが入力された際、CP前に行開始からスペースのみの空間があった場合、
+                -- 改行をした後、同じ位置まで空白のスペースを入れ込む
+                -- (改行時にインデントをキープする)
                 infrontSpace = ""
                 for i=1,#insStr do
                     if insStr:sub(i,i) ~= " " then
@@ -103,13 +107,15 @@ function main(argTable)
 
                     infrontSpace = infrontSpace .. " "
                 end
-                
+                --　新しい行をテキスト面にCP+1行目として追加
                 table.insert(lines, textPointerY + 2, infrontSpace .. insStr:sub(textPointerX+1,#insStr))               
                 insStr = insStr:sub(1,textPointerX)
                 lines[textPointerY + 1] = insStr
 
+                -- CPを改行した位置に移動させる
                 textPointerX = #infrontSpace
                 textPointerY = textPointerY + 1
+            -- Tabキーが押された場合
             elseif inputKey == "\t" then
                 itrptStr = "  "
                 insStr = insStr:sub(1,textPointerX)..itrptStr..insStr:sub(textPointerX+1)
