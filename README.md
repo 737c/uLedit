@@ -10,3 +10,6 @@ MicroLuaを起動するとファイル選択画面に遷移し、ファイル上
 
 /lunix/program/ecode/ecode.lua がテキストエディターのコアスクリプトとなっていて、コメントを随所に記述しています。  
 参考にしていただけるとありがたいです。  
+
+![NDS テキスト編集画面](URL "https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/DSC_1687%7E3.JPG")
+
