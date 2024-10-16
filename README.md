@@ -1,4 +1,3 @@
-![uLeditロゴ](https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/ergegrth.png)
 <img src="https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/ergegrth.png" width="50%" height="50%">
 # uLedit
 現在編集中です。  
