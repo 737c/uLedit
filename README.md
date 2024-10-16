@@ -1,3 +1,4 @@
+![uLeditロゴ](https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/ergegrth.png)
 # uLedit
 現在編集中です。  
 これはNDS/DSiで使える、テキストエディターアプリになります。  
