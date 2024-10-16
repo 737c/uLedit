@@ -14,9 +14,9 @@ MicroLuaを起動するとファイル選択画面に遷移し、ファイル上
 参考にしていただけるとありがたいです。  
 
 このほかにも仮想キーボード、ファイル選択画面など実装しています。
-メインロジック: ![lunix/system/origin.lua](https://github.com/737c/uLedit/blob/main/lunix/system/origin.lua)
-仮想キーボード: ![lunix/system/vKey.lua](https://github.com/737c/uLedit/blob/main/lunix/system/vKey.lua)
-ファイル選択画面: ![lunix/system/voyage.lua](https://github.com/737c/uLedit/blob/main/lunix/system/voyage.lua)
+メインロジック: ![lunix/system/origin.lua](https://github.com/737c/uLedit/blob/main/lunix/system/origin.lua)  
+仮想キーボード: ![lunix/system/vKey.lua](https://github.com/737c/uLedit/blob/main/lunix/system/vKey.lua)  
+ファイル選択画面: ![lunix/system/voyage.lua](https://github.com/737c/uLedit/blob/main/lunix/system/voyage.lua)  
 
-![NDS テキスト編集画面](https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/DSC_1687%7E3.JPG)
+![NDS テキスト編集画面](https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/DSC_1687%7E3.JPG)  
 
