@@ -36,7 +36,7 @@ function main(argTable)
         lines[#lines+1] = "no file found"
     end
 
-
+    -- 変数を初期化
     local vkPressedKey = ""
     local bbItem_hold = 0
     local bbItem_expand = false
@@ -48,12 +48,13 @@ function main(argTable)
     local textPointerX = 0
     local textPointerY = 0
     --###############################################################
-    
+    -- デバッグ文字列初期化
     local canvObj_debugStr = Canvas.newText(0,0,debugString,Color.new(31, 31, 31))
     -- 仮想キーボードを有効化
     vKeybord.on()
     -- 画面更新フラグをTrue
     local drawUpdate = true
+    -- >> メインループ開始 << <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< [メインループ開始] <<<<<<<<<<<<<<<<<<<<
     -- Startキーを押すとプログラムを終了します。
     while not Keys.held.Start do
         -- 入力されたキーをシステムから取得
@@ -117,14 +118,17 @@ function main(argTable)
                 textPointerY = textPointerY + 1
             -- Tabキーが押された場合
             elseif inputKey == "\t" then
+                -- CPの位置にスペース文字x2を挿入してStringとして結合
+                -- そのあとにCP位置を調整
                 itrptStr = "  "
                 insStr = insStr:sub(1,textPointerX)..itrptStr..insStr:sub(textPointerX+1)
                 lines[textPointerY + 1] = insStr
                 textPointerX = textPointerX + #itrptStr
+            -- それら以外のキーが押された場合(その他記号や大文字、小文字のすべてのアルファベット)
             else
+                -- CP 位置に入力文字を挿入してCP位置を変更
                 insStr = insStr:sub(1,textPointerX)..inputKey..insStr:sub(textPointerX+1)
                 textPointerX = textPointerX + 1
-
                 lines[textPointerY + 1] = insStr
             end
         end
