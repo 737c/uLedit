@@ -20,7 +20,9 @@ MicroLuaを起動するとファイル選択画面に遷移し、ファイル上
 仮想キーボード: ![lunix/system/vKey.lua](https://github.com/737c/uLedit/blob/main/lunix/system/vKey.lua)  
 ファイル選択画面: ![lunix/system/voyage.lua](https://github.com/737c/uLedit/blob/main/lunix/system/voyage.lua)  
 
+### キャプチャ
+
 <img src="https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/ulegit.gif" width="50%" height="50%">  
 
-![NDS テキスト編集画面](https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/DSC_1687-3e.jpg)  
+<img src="https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/DSC_1687-3e.jpg" width="50%" height="50%">  
 
