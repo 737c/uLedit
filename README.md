@@ -22,7 +22,7 @@ MicroLuaを起動するとファイル選択画面に遷移し、ファイル上
 
 ### キャプチャ
 
-<img src="https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/ulegit.gif" width="50%" height="50%">  
+<img src="https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/uledit3.gif" width="50%" height="50%">  
 
 <img src="https://raw.githubusercontent.com/737c/uLedit/refs/heads/main/DSC_1687-3e.jpg" width="50%" height="50%">  
 
