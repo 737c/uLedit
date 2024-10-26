@@ -11,14 +11,14 @@ MicroLua DSが導入されているDSiのSDカード内rootにuLeditプロジェ
 MicroLuaを起動するとファイル選択画面に遷移し、ファイル上でYボタン->"Edit"を選択すると編集画面へ遷移します。  
 
 ### コードについて
-![/lunix/program/ecode/ecode.lua](https://github.com/737c/uLedit/blob/main/lunix/program/ecode/ecode.lua) がテキストエディターのコアスクリプトとなっていて、  
+[/lunix/program/ecode/ecode.lua](https://github.com/737c/uLedit/blob/main/lunix/program/ecode/ecode.lua) がテキストエディターのコアスクリプトとなっていて、  
 コメントを随所に記述しています。  
 参考にしていただけるとありがたいです。  
 
 このほかにも仮想キーボード、ファイル選択画面など実装しています。  
-メインロジック: ![lunix/system/origin.lua](https://github.com/737c/uLedit/blob/main/lunix/system/origin.lua)  
-仮想キーボード: ![lunix/system/vKey.lua](https://github.com/737c/uLedit/blob/main/lunix/system/vKey.lua)  
-ファイル選択画面: ![lunix/system/voyage.lua](https://github.com/737c/uLedit/blob/main/lunix/system/voyage.lua)  
+メインロジック: [lunix/system/origin.lua](https://github.com/737c/uLedit/blob/main/lunix/system/origin.lua)  
+仮想キーボード: [lunix/system/vKey.lua](https://github.com/737c/uLedit/blob/main/lunix/system/vKey.lua)  
+ファイル選択画面: [lunix/system/voyage.lua](https://github.com/737c/uLedit/blob/main/lunix/system/voyage.lua)  
 
 ### キャプチャ
 
